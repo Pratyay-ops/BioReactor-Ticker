@@ -1,0 +1,155 @@
+[
+    {
+      "enzyme": "Xylanase (Mtxylan2)",
+      "source": "Frontiers in Microbiology, 2024",
+      "thermal_stability": {
+        "temp_range": [50, 70],
+        "half_life": {
+          "50": 180,
+          "60": 13.1,
+          "65": 5.2
+        }
+      }
+    },
+    {
+      "enzyme": "Xylanase (28C mutant)",
+      "source": "Frontiers in Microbiology, 2024",
+      "thermal_stability": {
+        "temp_range": [55, 75],
+        "half_life": {
+          "60": 27.7,
+          "65": 15.0,
+          "70": 8.4
+        }
+      }
+    },
+    {
+      "enzyme": "Lipase (VarB3 mutant)",
+      "source": "Nature Scientific Reports, 2016",
+      "thermal_stability": {
+        "temp_range": [40, 70],
+        "half_life": {
+          "50": 480,
+          "60": 120,
+          "70": 30
+        }
+      }
+    },
+    {
+      "enzyme": "α-Amylase",
+      "source": "Microbiology Journal, 2022",
+      "thermal_stability": {
+        "temp_range": [30, 50],
+        "half_life": {
+          "40": 240,
+          "50": 45,
+          "60": 5
+        }
+      }
+    },
+  {
+    "enzyme": "Cellulase (TrCel7A)",
+    "source": "BRENDA [1][6]",
+    "thermal_stability": {
+      "temp_range": [45, 65],
+      "half_life": {
+        "50": 240,
+        "60": 45,
+        "65": 12
+      },
+      "activation_energy": 85.4
+    }
+  },
+  {
+    "enzyme": "PETase (FAST-PETase)",
+    "source": "Nature 2025 [5]",
+    "thermal_stability": {
+      "temp_range": [30, 50],
+      "half_life": {
+        "40": 180,
+        "50": 30,
+        "55": 8
+      },
+      "melting_temp": 62.4
+    }
+  },
+  {
+    "enzyme": "α-Amylase (Bacillus)",
+    "source": "Appl. Microbiol. Biotech. 2023",
+    "thermal_stability": {
+      "temp_range": [55, 75],
+      "half_life": {
+        "60": 480,
+        "70": 120,
+        "75": 45
+      },
+      "thermal_inactivation_rate": 0.012
+    }
+  },
+  {
+    "enzyme": "Laccase (TrLcc1)",
+    "source": "Enz. Microb. Tech. 2020",
+    "thermal_stability": {
+      "temp_range": [25, 45],
+      "half_life": {
+        "30": 1440,
+        "40": 360,
+        "45": 120
+      },
+      "copper_retention": 92.5
+    }
+  },{
+      "enzyme": "Cellulase (TrCel7A)",
+      "source": "BRENDA [1][6]",
+      "thermal_stability": {
+        "temp_range": [45, 65],
+        "half_life": {
+          "50": 240,
+          "60": 45,
+          "65": 12
+        },
+        "activation_energy": 85.4
+      }
+    },
+    {
+      "enzyme": "PETase (FAST-PETase)",
+      "source": "Nature 2025 [5]",
+      "thermal_stability": {
+        "temp_range": [30, 50],
+        "half_life": {
+          "40": 180,
+          "50": 30,
+          "55": 8
+        },
+        "melting_temp": 62.4
+      }
+    },
+    {
+      "enzyme": "α-Amylase (Bacillus)",
+      "source": "Appl. Microbiol. Biotech. 2023",
+      "thermal_stability": {
+        "temp_range": [55, 75],
+        "half_life": {
+          "60": 480,
+          "70": 120,
+          "75": 45
+        },
+        "thermal_inactivation_rate": 0.012
+      }
+    },
+    {
+      "enzyme": "Laccase (TrLcc1)",
+      "source": "Enz. Microb. Tech. 2020",
+      "thermal_stability": {
+        "temp_range": [25, 45],
+        "half_life": {
+          "30": 1440,
+          "40": 360,
+          "45": 120
+        },
+        "copper_retention": 92.5
+      }
+    }
+]
+  
+  

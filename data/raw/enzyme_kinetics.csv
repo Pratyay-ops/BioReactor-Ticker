@@ -1,0 +1,13 @@
+Substrate,Enzyme,Km(mM),Vmax(μmol/min),OptimalTemp(°C),OptimalpH,Source
+Cellulose,Cellulase (TrCel7A),5.2,0.85,50,5.0,BRENDA [1][6]
+Avicel,Cellulase (CtCel5A),3.8,1.42,55,4.8,Biotech. Bioeng. 2021
+p-Nitrophenyl-β-D-cellobioside,Cellulase,0.12,35.6,45,5.2,BRENDA [9]
+Starch,α-Amylase (Bacillus),0.45,420,70,6.5,Appl. Microbiol. Biotech. 2023
+Maltotriose,α-Amylase,1.8,285,65,6.8,BRENDA [6]
+Xylan,Xylanase (TlXyn10A),1.2,680,60,6.0,Carb. Polym. 2022
+Lignin,Laccase (TrLcc1),0.85,12.4,40,3.5,Enz. Microb. Tech. 2020
+PET,PETase (FAST-PETase),4.5,0.24,40,7.0,Nature 2025 [5]
+Polyurethane,PUase (PsEstA),7.8,0.15,45,7.5,Science 2024
+Glucose,Glucose Oxidase,2.1,1240,35,5.5,BRENDA [1]
+Lactose,β-Galactosidase,4.7,85,50,6.5,J. Dairy Sci. 2023
+Casein,Protease (Subtilisin),0.32,450,60,8.0,BRENDA [9]
