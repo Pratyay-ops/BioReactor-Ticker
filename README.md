@@ -49,6 +49,7 @@ bioreactor-system/
 ├── models/                  # Trained model binaries
 ├── requirements.txt         # List of project dependencies
 └── README.md                # Project documentation
+```
 
 ## Installation
 
@@ -57,6 +58,11 @@ bioreactor-system/
    ```bash
    git clone https://github.com/yourusername/bioreactor-system.git
    cd bioreactor-system
-  
+   ```
 
 2. **Set Up a Virtual Environment (Recommended):**
+  ```bash
+      
+3. 
+4. 
+5. 
