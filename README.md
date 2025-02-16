@@ -1,4 +1,4 @@
-# Bioreactor Conversion Predictor
+# Bioreactor Conversion Predictor [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 
 An innovative machine learning application that predicts bioreactor conversion efficiency by leveraging modern technology and experimental data. This system allows users to select substrates and automatically determine the corresponding enzyme (sourced from the BRENDA Enzyme Database), adjust reaction conditions such as temperature, time, and pH, and view detailed visualizations of reaction progress.
 
@@ -105,4 +105,4 @@ streamlit run app/main.py
 A new browser window should open (or navigate to http://localhost:8501) where you can select a substrate (with the enzyme auto-populated), adjust reaction conditions, and view the predicted conversion along with detailed visualizations.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](#license) file for details.
+This project is licensed under the GPL-3.0 License. See the [LICENSE](#license) file for details.
