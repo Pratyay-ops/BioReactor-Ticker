@@ -2,8 +2,8 @@
 
 An innovative machine learning application that predicts bioreactor conversion efficiency by leveraging modern technology and experimental data. This system allows users to select substrates and automatically determine the corresponding enzyme (sourced from the BRENDA Enzyme Database), adjust reaction conditions such as temperature, time, and pH, and view detailed visualizations of reaction progress.
 
-![Bioreactor Conversion Predictor](![image](https://github.com/user-attachments/assets/c616566a-ad82-4d4a-a93d-4414e7b76ded)
-)
+![image](https://github.com/user-attachments/assets/15453073-10cf-47b5-b5e2-10740493a756)
+
 
 ## Table of Contents
 
@@ -27,6 +27,8 @@ The **Bioreactor Conversion Predictor** utilizes experimental enzyme kinetics an
 
 - **ML-Based Prediction:** Uses a Gradient Boosting Regressor model to predict bioreactor conversion based on substrate, enzyme, temperature, time, and pH.
 - **Dynamic Visualizations:** Interactive progression vs. time graph and 3D conversion landscape using Plotly.
+  ![image](https://github.com/user-attachments/assets/c2e0a8c7-2cb7-45d2-9464-116d725321db)
+
 - **User-Friendly Frontend:** Built with Streamlit to allow easy selection of reaction parameters.
 - **Data Integration:** Incorporates experimental kinetic data from the BRENDA Enzyme Database for realistic modeling.
 
@@ -61,8 +63,46 @@ bioreactor-system/
    ```
 
 2. **Set Up a Virtual Environment (Recommended):**
-  ```bash
-      
-3. 
-4. 
-5. 
+   * Windows:
+    ```bash
+    python -m venv env
+    .\env\Scripts\activate
+    ```
+   * MacOS/Linux:
+    ```bash
+    python -m venv env
+    source env/bin/activate
+    ```  
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+## Usage
+
+# Data Processing
+Before training the model, ensure the raw data is processed. If raw files (enzyme_kinetics.csv and thermal_profiles.json) are missing, run the data processing script:
+```bash
+python -m app.utils.data_loader
+```
+Alternatively, in a Python shell:
+```py
+from app.utils.data_loader import process_raw_data
+process_raw_data()
+```
+
+#Model Training
+Train the machine learning model using the processed dataset:
+```py
+python app/model.py
+```
+This script loads the generated synthetic data, trains the ML model, and saves the trained model to [models/conversion_model.pkl](#models)
+
+#Running the Frontend
+Launch the Streamlit web application to interact with the predictor:
+```py
+streamlit run app/main.py
+```
+A new browser window should open (or navigate to http://localhost:8501) where you can select a substrate (with the enzyme auto-populated), adjust reaction conditions, and view the predicted conversion along with detailed visualizations.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](#license) file for details.
