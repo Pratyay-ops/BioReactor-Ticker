@@ -74,14 +74,14 @@ bioreactor-system/
     source env/bin/activate
     ```  
 3. **Install Dependencies:**
-   ```bash
+   ```py
    pip install -r requirements.txt
    ```
 ## Usage
 
 # Data Processing
 Before training the model, ensure the raw data is processed. If raw files (enzyme_kinetics.csv and thermal_profiles.json) are missing, run the data processing script:
-```bash
+```py
 python -m app.utils.data_loader
 ```
 Alternatively, in a Python shell:
