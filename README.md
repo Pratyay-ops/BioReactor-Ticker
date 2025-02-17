@@ -1,4 +1,4 @@
-# Bioreactor Conversion Predictor [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+# [Bioreactor Conversion Predictor](https://bioreactor-ticker.streamlit.app/) [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 
 An innovative machine learning application that predicts bioreactor conversion efficiency by leveraging modern technology and experimental data. This system allows users to select substrates and automatically determine the corresponding enzyme (sourced from the BRENDA Enzyme Database), adjust reaction conditions such as temperature, time, and pH, and view detailed visualizations of reaction progress.
 
