@@ -27,8 +27,11 @@ ph = st.sidebar.slider("pH", 4.0, 8.0, 6.0, 0.1)
 
 st.title("Bioreactor Conversion Predictor")
 st.write('______________________________________________________________________')
-st.write('This system allows users to select substrates, adjust reaction conditions such as temperature,')
-st.write('time, and pH, and view detailed visualizations of reaction progress.')
+st.write('This system allows users to select substrates, adjust reaction conditions such as temperature,time, and pH, and view detailed visualizations of reaction progress using Michaelis-Menten kinetics principles')
+st.latex(r'E + S \xrightleftharpoons[k_{-1}]{k_1} ES \xrightarrow{k_2} E + P')
+st.latex(r"""
+\text{Efficiency} = \frac{V_{\max} [S]}{K_m + [S]} \cdot f(T, \text{pH})
+""")
 
 # Load the trained ML model (cached for performance)
 @st.cache_resource
